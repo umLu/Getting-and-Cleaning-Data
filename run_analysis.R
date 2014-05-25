@@ -53,8 +53,8 @@ names(train)<-"partition"
 Partition<-rbind(test,train)
 
 # Variable to store the subjects from each data set (test and train) 
-subject_test<-read.table("./project/UCI HAR Dataset/test/subject_test.txt")
-subject_train<-read.table("./project/UCI HAR Dataset/train/subject_train.txt")
+subject_test<-read.table("./UCI HAR Dataset/test/subject_test.txt")
+subject_train<-read.table("./UCI HAR Dataset/train/subject_train.txt")
 names(subject_test)<-"subject"
 names(subject_train)<-"subject"
 
