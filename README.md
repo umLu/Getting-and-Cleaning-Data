@@ -4,7 +4,7 @@ Getting and Cleaning Data Course Project
 This repository is dedicated to the Getting and Cleaning Data Course Project. It contains 5 files:
 
 #### run_analysis.R
-R script that download the raw data (for more details, see CodeBook.md) and:
+R script that downloads (if needed) the raw data (for more details, see CodeBook.md) and:
 
 1. Merges the training and the test sets to create one data set.</li>
 2. Extracts only the measurements on the mean and standard deviation for each measurement.</li>
