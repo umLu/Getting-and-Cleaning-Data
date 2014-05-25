@@ -5,13 +5,13 @@ This repository is dedicated to the Getting and Cleaning Data Course Project. It
 
 #### run_analysis.R
 R script that download the raw data (for more details, see CodeBook.md) and:
-<ol>
-  <li>Merges the training and the test sets to create one data set.</li>
-  <li>Extracts only the measurements on the mean and standard deviation for each measurement.</li>
-  <li>Uses descriptive activity names to name the activities in the data set</li>
-  <li>Appropriately labels the data set with descriptive activity names.</li>
-  <li>Creates a second, independent tidy data set with the average of each variable for each activity and each subject.</li>
-</ol>
+
+1. Merges the training and the test sets to create one data set.</li>
+2. Extracts only the measurements on the mean and standard deviation for each measurement.</li>
+3. Uses descriptive activity names to name the activities in the data set</li>
+4. Appropriately labels the data set with descriptive activity names.</li>
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.</li>
+
 The run_analysis.R is a R script and should be "ran" in R.
     
 It will generate 2 files: the tidy_n1.txt and tidy_n2.txt. The CodeBook.md describes the process in details and is focused on the tidy_n2.txt variables.
